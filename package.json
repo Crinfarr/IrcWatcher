@@ -1,0 +1,32 @@
+{
+    "name": "ircwatcher",
+    "version": "0.0.1",
+    "description": "Automatically find and watch irc clients through mass scan and crawl",
+    "main": "index.js",
+    "scripts": {
+        "test": "node index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Crinfarr/IrcWatcher.git"
+    },
+    "keywords": [
+        "irc",
+        "messaging",
+        "crawler",
+        "web",
+        "crawler",
+        "client"
+    ],
+    "author": "Crinfarr",
+    "license": "GPL-3.0",
+    "bugs": {
+        "url": "https://github.com/Crinfarr/IrcWatcher/issues"
+    },
+    "homepage": "https://github.com/Crinfarr/IrcWatcher#readme",
+    "type": "module",
+    "dependencies": {
+        "chalk": "^5.0.0",
+        "irc": "^0.5.2"
+    }
+}
